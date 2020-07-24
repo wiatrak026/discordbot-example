@@ -1,2 +1,2 @@
 # Discord BOT Example
-Przykład Discodowego bota z jedną komendą oraz Command hanlderem.
+Przykład Discordowego bota z jedną komendą oraz Command Hanlderem.
