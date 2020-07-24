@@ -2,7 +2,7 @@
 # Discord BOT Example
 Przykład Discordowego bota z jedną komendą oraz Command Hanlderem.
 
-1. Jak to wgrać?
+1. Jak to wgrać?<br>
 a) Zainstaluj środowisko uruchomieniowe o nazwie Node.js na swój komputer. https://nodejs.org/en<br>
 b) Pobierz pliki z tego repozytorium i stwórz jakiś tam katalog, następnie je przenieś do niego.<br>
 c) Przejdź następnie do swojego katalogu z botem, potem kliknij jeden raz na pasek z lokalizacją folderu. Wpisz następnie **cmd**.<br>
