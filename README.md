@@ -42,4 +42,4 @@ e) Wprowadź następujące polecenie do konsoli.<br>
 Jeśli twoja konsola nie rozpoznaje takiego polecenia, uruchom ponownie komputer. Jeśli nadal występuje błąd, źle zainstalowałeś Node.js'a — albo w ogóle tego nie zrobiłeś. Przejdź do podpunktu A.<br>
 f) Otwórz plik config.json. Wypełnij go. Podaj prefix swojego bota oraz jego token z https://discord.com/developers/applications<br>
 g) Uruchom bota, wpisując polecenie **node .** lub **node index.js** w wierszu poleceń.<br>
-Gotowe! Jeśli masz problem ze stworzeniem swojego pierwszego bota, skontaktuj się ze mną!<br>
+Gotowe! Jeśli masz problem ze stworzeniem swojego pierwszego bota, skontaktuj się ze mną!
