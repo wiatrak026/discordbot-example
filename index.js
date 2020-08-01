@@ -6,7 +6,7 @@ client.commands = new Discord.Collection();
 
 fs.readdir("./commands/", (err, files) => {
     if(err) console.error(err);
-    let jsfile = files.filter(f => f.split(".").pop() === "js");
+    let jsfile = files.filter((f) => f.split(".").pop() === "js");
     if(jsfile.length <= 0) return console.log("Katalog 'commands' jest pusty!");
     jsfile.forEach((f) => {
         let props = require("./commands/" + f);
@@ -18,7 +18,7 @@ client.on("ready", () => {
     console.log(`Bot ${client.user.username} jest gotowy!`);
 });
 
-client.on("message", async message => {
+client.on("message", async (message) => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
     let prefix = config.prefix;

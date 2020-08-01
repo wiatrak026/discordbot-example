@@ -6,7 +6,7 @@ module.exports.run = async (_client, message) => {
         .setColor(body.color)
         .setImage(body.message);
         message.channel.send(embed);
-    }).catch(() => message.channel.send("❎ **Błąd API!**"));
+    }).catch(() => message.channel.send("❎ Błąd API! Spróbuj ponownie."));
 };
 
 module.exports.help = {
