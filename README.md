@@ -1,5 +1,5 @@
 # Discord BOT Example
-Przykład Discordowego bota z jedną komendą oraz Command Hanlderem. Ten poradnik nie został jeszcze dokończony!
+Przykład Discordowego bota z jedną komendą oraz Command Hanlderem.
 
 1. Jak to wgrać dla komputera z systemem Windows?<br>
 a) Zainstaluj środowisko uruchomieniowe o nazwie Node.js na swój komputer. https://nodejs.org/en<br>
@@ -36,10 +36,10 @@ Is this OK? (yes) yes
 
 C:\Users\Użytkownik>
 ```
-I teraz powinien Ci się stworzyć plik package.json w lokalizacji projektu twojego bota.
+I teraz powinien Ci się stworzyć plik package.json w lokalizacji projektu twojego bota.<br>
 e) Wprowadź następujące polecenie do konsoli.<br>
 **npm install discord.js@latest**<br>
 Jeśli twoja konsola nie rozpoznaje takiego polecenia, uruchom ponownie komputer. Jeśli nadal występuje błąd, źle zainstalowałeś Node.js'a — albo w ogóle tego nie zrobiłeś. Przejdź do podpunktu A.<br>
-d) Otwórz plik config.json. Wypełnij go. Podaj prefix swojego bota oraz jego token z https://discord.com/developers/applications<br>
-f) Uruchom bota, wpisując polecenie **node .** lub **node index.js** w wierszu poleceń.<br>
+f) Otwórz plik config.json. Wypełnij go. Podaj prefix swojego bota oraz jego token z https://discord.com/developers/applications<br>
+g) Uruchom bota, wpisując polecenie **node .** lub **node index.js** w wierszu poleceń.<br>
 Gotowe! Jeśli masz problem ze stworzeniem swojego pierwszego bota, skontaktuj się ze mną!<br>
