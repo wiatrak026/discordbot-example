@@ -1,6 +1,6 @@
 
 # Discord BOT Example
-Przykład Discordowego bota z jedną komendą oraz Command Hanlderem.
+Przykład Discordowego bota z jedną komendą oraz Command Hanlderem. Ten poradnik nie został jeszcze dokończony!
 
 1. Jak to wgrać dla komputera z systemem Windows?<br>
 a) Zainstaluj środowisko uruchomieniowe o nazwie Node.js na swój komputer. https://nodejs.org/en<br>
