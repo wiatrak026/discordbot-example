@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-const config = require("./config.json");
+const { token, prefix } = require("./config.json");
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
@@ -18,10 +18,9 @@ client.on("ready", () => {
     console.log(`Bot ${client.user.username} jest gotowy!`);
 });
 
-client.on("message", async (message) => {
+client.on("message", (message) => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
-    let prefix = config.prefix;
     if(!message.content.startsWith(prefix)) return;
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0];
@@ -30,4 +29,4 @@ client.on("message", async (message) => {
     if(commandfile) commandfile.run(client, message, args);
 });
 
-client.login(config.token);
+client.login(token);
